@@ -13,7 +13,7 @@
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/AllenBuhle1/breaking-bad-character-info.git)
-- Live Site URL: [On Netlify](none)
+- Live Site URL: [On Netlify](https://stoic-dijkstra-32fecb.netlify.app/)
 
 ## My process
 
@@ -25,7 +25,7 @@
 ## Author
 
 - Website - [Buhle Allen](https://www.allenbuhle.com)
-- Instagram - [@allenbuhle](https://www.twitter.com/allenbuhle)
+- Instagram - [@allenbuhle](https://www.instagram.com/allenbuhle)
 
 ## Description
 
