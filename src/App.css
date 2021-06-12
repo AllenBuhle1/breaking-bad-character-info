@@ -1,0 +1,7 @@
+@import url("./resetStyle.css");
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(155, 114, 38, 0.5);
+}

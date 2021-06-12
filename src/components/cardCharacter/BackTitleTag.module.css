@@ -1,0 +1,17 @@
+:root {
+  --Black: rgb(53, 53, 53);
+}
+div {
+  display: flex;
+  flex-direction: column;
+}
+.value {
+  width: 100%;
+  word-break: break-word;
+  color: var(--Black);
+  font-size: 0.3rem;
+}
+.title {
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}

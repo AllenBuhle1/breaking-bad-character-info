@@ -1,0 +1,59 @@
+@import url("../../resetStyle.css");
+:root {
+  --Black: rgb(53, 53, 53);
+}
+.card {
+  position: relative;
+  height: 250px;
+  width: 196px;
+  margin: 15px;
+  overflow: hidden;
+  transition: 0.3s cubic-bezier(0, 0.47, 0.25, 0.89);
+}
+.front,
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s cubic-bezier(0, 0.47, 0.25, 0.89);
+}
+
+.cardPhoto {
+  height: 100%;
+  width: auto;
+}
+.back {
+  top: 260px;
+  opacity: 0;
+  color: var(--Black);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 13px;
+  transform: rotateZ(90deg) scale(0);
+}
+.card:hover .front {
+  opacity: 0.1;
+  cursor: pointer;
+}
+.card:hover .back {
+  top: 0;
+  z-index: 10;
+  transform: rotateZ(0) scale(1);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.card:hover .back:hover {
+  opacity: 1;
+  color: rgb(29, 197, 79);
+  box-shadow: inset 0 0 5px rgba(29, 197, 79, 0.4);
+}
+.card:hover {
+  background: rgb(210, 105, 30);
+}
+.back p,
+.back span {
+  font-size: 0.9rem;
+  font-weight: 400;
+}

@@ -1,0 +1,10 @@
+@import url("../resetStyle.css");
+.actorsGrid {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 95vh;
+}
